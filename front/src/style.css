@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+} 
+.footerText {
+    text-align: center;
+    height: 100%;
+    line-height: 8rem;
+}
+.product_info {
+    text-align: center;
+}
+
+.tableOFcart {
+  width: 60%;
+}
+.cartHandler {
+  width: 25%
+}
+
+th, td {
+  vertical-align: middle;
+}
+
+.hideload {
+  display: none;
+}
+.showload{
+  display: block;
+}
+.profile {
+  width: 100%;
+}
+
+#toRepassword:hover, #restore:hover, #err:hover, #reloader:hover, #toHome:hover, #toSign:hover  {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .product_info {
+      text-align: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+    .tableOFcart {
+      width: 100%;
+  }
+   .cartHandler {
+      width: 100%
+  }
+  .profile {
+     margin: auto;
+  }
+}
